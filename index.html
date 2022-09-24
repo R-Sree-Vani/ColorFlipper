@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Flipper</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="logo.png" type="image/icon type">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+		.container{
+			text-align: center;
+
+		}
+      .hcls{
+      	
+      	position: relative;
+      	background-color: black;
+      	color:white;
+
+      	width:75%;
+      	height: 46px;
+      	border-radius: 9px;
+      }
+      #btn{
+      	height: 40px;
+      	background-image: linear-gradient(white,yellow,white);
+      	border-radius: 9px;
+      }
+      #btn:hover{
+      	cursor: pointer;
+      	background-image: linear-gradient(white,green,white);
+      	color: white;
+      }
+      .outsp{
+      	padding-left: 25%;
+      	padding-top: 15%;
+      	
+      }
+       @media (max-width: 450px ) 
+       {
+        body{
+       	text-align:center;
+       }
+       .hcls{
+       	height:55px;
+       }
+
+
+       }
+	</style>
+</head>
+<body bgcolor="#AF33FF">
+
+	<div class="container">
+		<div class="outsp">
+		<div class="hcls">
+		<h2>Background Color:<span class="color">#AF33FF</span></h2></div></div>
+		<br>
+		<button class="btn btn-hero" id="btn"><b>Click Here!!</b></button>
+	</div>
+  <script type="text/javascript" src="index.js">
+  	
+  </script>
+</body>
+</html>
